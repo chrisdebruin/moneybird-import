@@ -9,6 +9,4 @@ WORKDIR /app
 
 COPY . .
 
-ENV TOKEN=''
-
 CMD ["ruby", "main.rb"]
